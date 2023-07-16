@@ -10,9 +10,9 @@
       ../../../modules/desktop/hyprland
     ];
 
-  users.users.root.initialHashedPassword = "$6$LHGmA/ySyxJ.7kJx$Ub6vs3XUQ8bGA4DcbvJ2BIlm/FL3csQ1QeQG8IjNnZNXe7rEFLpO8BTP4.kSlGgdPej70JEqJABo8EbwvxIfZ1";
+  users.users.root.initialHashedPassword = "$6$h9XY2ScbJh14GE9i$005eEW0EncwBQ7UmVKvS81HK1Zoew9v6.n6GgvE3CQ/NZKRwUhLsGjuyJwQYT7uNZI1.KX1RPzieSv3x4Hg1k0";
   users.users.${user} = {
-    initialHashedPassword = "$6$LHGmA/ySyxJ.7kJx$Ub6vs3XUQ8bGA4DcbvJ2BIlm/FL3csQ1QeQG8IjNnZNXe7rEFLpO8BTP4.kSlGgdPej70JEqJABo8EbwvxIfZ1";
+    initialHashedPassword = "$6$h9XY2ScbJh14GE9i$005eEW0EncwBQ7UmVKvS81HK1Zoew9v6.n6GgvE3CQ/NZKRwUhLsGjuyJwQYT7uNZI1.KX1RPzieSv3x4Hg1k0";
     # shell = pkgs.fish;
     isNormalUser = true;
     extraGroups = [ "wheel" "video" "audio" ];
